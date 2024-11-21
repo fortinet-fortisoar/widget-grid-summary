@@ -1,0 +1,26 @@
+{
+    "name": "gridSummary",
+    "title": "Grid Summary",
+    "subTitle": "create grid for given json data",
+    "version": "1.0.0",
+    "published_date": 1732188572,
+    "releaseNotes": "unavailable",
+    "metadata": {
+        "description": "",
+        "pages": [
+            "View Panel",
+            "Dashboard",
+            "Reports",
+            "Listing"
+        ],
+        "certified": "Yes",
+        "publisher": "Fortinet",
+        "compatibility": [
+            "7.6.1"
+        ],
+        "category": [
+            "Threat Intelligence"
+        ]
+    },
+    "development": false
+}
