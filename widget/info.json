@@ -1,0 +1,29 @@
+{
+    "name": "gridSummary",
+    "title": "Grid",
+    "subTitle": "Create a grid and populate given JSON data in it",
+    "version": "1.0.0",
+    "published_date": 1732188572,
+    "releaseNotes": "unavailable",
+    "metadata": {
+        "description": "",
+        "pages": [
+            "View Panel",
+            "Dashboard",
+            "Reports",
+            "Listing"
+        ],
+        "certified": "Yes",
+        "publisher": "Fortinet",
+        "compatibility": [
+            "7.6.1"
+        ],
+        "category": [
+            "Threat Intelligence",
+            "Data Enrichment & Threat Intelligence",
+            "Analytics and SIEM",
+            "FortiSOAR Essentials"
+        ]
+    },
+    "development": false
+}
