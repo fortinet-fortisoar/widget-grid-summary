@@ -29,16 +29,6 @@ Copyright end */
           }
         };
         $scope.config.gridDataJson = !angular.isArray($scope.config.gridDataJson) ? $scope.config.gridDataJson : {};
-        $scope.jsonDataEditorOptions = {
-          name: 'Fields',
-          mode: 'code',
-          onEditable: function () {
-            return {
-              field: true,
-              value: true
-            };
-          }
-        };
 
         function _handleTranslations() {
           let widgetNameVersion = widgetUtilityService.getWidgetNameVersion($scope.$resolve.widget, $scope.$resolve.widgetBasePath);

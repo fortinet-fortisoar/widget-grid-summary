@@ -1,7 +1,7 @@
 {
     "name": "gridSummary",
-    "title": "Grid Summary",
-    "subTitle": "create grid for given json data",
+    "title": "Summary grid",
+    "subTitle": "Create a grid and populate given JSON data in it",
     "version": "1.0.0",
     "published_date": 1732188572,
     "releaseNotes": "unavailable",
@@ -19,7 +19,10 @@
             "7.6.1"
         ],
         "category": [
-            "Threat Intelligence"
+            "Threat Intelligence",
+            "Data Enrichment & Threat Intelligence",
+            "Analytics and SIEM",
+            "FortiSOAR Essentials"
         ]
     },
     "development": false
