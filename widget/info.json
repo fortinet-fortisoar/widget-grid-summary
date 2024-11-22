@@ -1,6 +1,6 @@
 {
     "name": "gridSummary",
-    "title": "Summary grid",
+    "title": "Grid",
     "subTitle": "Create a grid and populate given JSON data in it",
     "version": "1.0.0",
     "published_date": 1732188572,
