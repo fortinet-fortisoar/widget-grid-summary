@@ -27,16 +27,13 @@ Copyright end */
         var viewParams = {
           indicator: row.entity.indicator
         };
-        var stateParams = $state.params;
-        stateParams.module = $scope.module;
         var params = {
           module:  $scope.module,
           id: row.entity.indicator,
           viewParams: JSON.stringify(viewParams),
           previousState: $state.current.name,
-          previousParams: JSON.stringify(stateParams)
+          previousParams: JSON.stringify($state.params)
         };
-        // $scope.$broadcast('csGrid:goTo', state, params, event);
         var leavingViewPanel = state.indexOf('viewPanel') === -1 && $state.current.name.indexOf('viewPanel') !== -1;
         if (event.ctrlKey || event.metaKey || leavingViewPanel) {
           var url = $state.href(state, params);
