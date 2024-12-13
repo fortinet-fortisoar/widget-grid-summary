@@ -14,6 +14,7 @@ Copyright end */
 
       $scope.onView = onView;
       $scope.gridOptions = {};
+      $scope.itemCount = 0;
 
       function _setGridApi(gridApi) {
         $scope.gridApi = gridApi;
@@ -62,6 +63,7 @@ Copyright end */
         $scope.gridOptions = _gridDefinition.gridOptions; //set grid definition
         $scope.gridOptions.data = _gridData.data; //set grid data 
         $scope.gridOptions.onRegisterApi = _setGridApi;
+        $scope.itemCount = $scope.gridOptions.data ? $scope.gridOptions.data.length : 0;
       }
 
       init();
