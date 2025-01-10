@@ -23,13 +23,16 @@ Copyright end */
       }
 
       function onView(row, col, event) {
+        if(!row.entity.indicator.valid){ //to return and stop opening of view panel if IOC is invalid
+          return;
+        }
         var state = appModulesService.getState($scope.module);
         var viewParams = {
-          indicator: row.entity.indicator
+          indicator: row.entity.indicator.id
         };
         var params = {
           module:  $scope.module,
-          id: row.entity.indicator,
+          id: row.entity.indicator.id,
           viewParams: JSON.stringify(viewParams),
           previousState: $state.current.name,
           previousParams: JSON.stringify($state.params)
