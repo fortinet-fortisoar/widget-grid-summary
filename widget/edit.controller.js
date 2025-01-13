@@ -14,7 +14,7 @@ Copyright end */
         $scope.cancel = cancel;
         $scope.save = save;
         $scope.config = config;
-        $scope.header = $scope.config.title ? 'Edit Grid Summary' : 'Add Grid Summary';
+        $scope.header = $scope.config.title ? 'Edit Summary Grid' : 'Add Summary Grid';
         $scope.setGridDefinition = setGridDefinition; //set grid options
         $scope.setGridDataJson = setGridDataJson; //set grid data
         $scope.config.gridDefinitionJson = !angular.isArray($scope.config.gridDefinitionJson) ? $scope.config.gridDefinitionJson : {};
