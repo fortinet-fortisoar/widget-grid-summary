@@ -1,5 +1,10 @@
 {
     "gridSummary": {
-        "KEY_NAME": ""
+        "ERROR_NO_INFORMATION_AVAILABLE": "No information available",
+        "HEADER_EDIT_SUMMARY_GRID":"Edit Summary Grid",
+        "HEADER_ADD_SUMMARY_GRID":"Add Summary Grid",
+        "LABEL_ITEM":"Item",
+        "LABEL_GRID_TEMPLATE": "Grid Template",
+        "LABEL_GRID_DATA": "Grid Data"
     }
 }

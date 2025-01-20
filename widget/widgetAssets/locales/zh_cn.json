@@ -1,5 +1,10 @@
 {
     "gridSummary": {
-        "KEY_NAME": ""
-    }
+        "ERROR_NO_INFORMATION_AVAILABLE": "暂无信息",
+        "HEADER_EDIT_SUMMARY_GRID": "编辑摘要网格",
+        "HEADER_ADD_SUMMARY_GRID": "添加摘要网格",
+        "LABEL_ITEM": "项目",
+        "LABEL_GRID_TEMPLATE": "网格模板",
+        "LABEL_GRID_DATA": "网格数据"
+    }    
 }

@@ -1,5 +1,10 @@
 {
     "gridSummary": {
-        "KEY_NAME": ""
-    }
+        "ERROR_NO_INFORMATION_AVAILABLE": "情報が利用できません",
+        "HEADER_EDIT_SUMMARY_GRID": "サマリーグリッドの編集",
+        "HEADER_ADD_SUMMARY_GRID": "サマリーグリッドの追加",
+        "LABEL_ITEM": "アイテム",
+        "LABEL_GRID_TEMPLATE": "グリッドテンプレート",
+        "LABEL_GRID_DATA": "グリッドデータ"
+    }    
 }

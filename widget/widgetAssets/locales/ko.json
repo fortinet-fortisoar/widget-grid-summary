@@ -1,5 +1,10 @@
 {
     "gridSummary": {
-        "KEY_NAME": ""
+        "ERROR_NO_INFORMATION_AVAILABLE": "정보를 사용할 수 없습니다",
+        "HEADER_EDIT_SUMMARY_GRID": "요약 그리드 편집",
+        "HEADER_ADD_SUMMARY_GRID": "요약 그리드 추가",
+        "LABEL_ITEM": "항목",
+        "LABEL_GRID_TEMPLATE": "그리드 템플릿",
+        "LABEL_GRID_DATA": "그리드 데이터"
     }
 }
