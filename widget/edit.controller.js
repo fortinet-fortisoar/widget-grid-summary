@@ -37,12 +37,17 @@ Copyright end */
             widgetUtilityService.checkTranslationMode(widgetNameVersion).then(function () {
               $scope.viewWidgetVars = {
                 // Create your translating static string variables here
+                HEADER_EDIT_HEATMAP: widgetUtilityService.translate('gridSummary.HEADER_EDIT_SUMMARY_GRID'),
+                HEADER_ADD_HEATMAP: widgetUtilityService.translate('gridSummary.HEADER_ADD_SUMMARY_GRID'),
+                LABEL_GRID_TEMPLATE: widgetUtilityService.translate('gridSummary.LABEL_GRID_TEMPLATE'),
+                LABEL_GRID_DATA: widgetUtilityService.translate('gridSummary.LABEL_GRID_DATA')
               };
+            $scope.header = $scope.config.title ? $scope.viewWidgetVars.HEADER_EDIT_HEATMAP : $scope.viewWidgetVars.HEADER_ADD_HEATMAP;
             });
           } else {
             $timeout(function() {
-              $scope.cancel();
-            });
+              cancel();
+            },100);
           }
         }
 

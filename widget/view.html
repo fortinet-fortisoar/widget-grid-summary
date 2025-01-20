@@ -17,8 +17,11 @@ Copyright end -->
     <div data-ng-hide="collapsed">
         <div class="padding-left-lg padding-bottom-lg">
             <div>
-                <div class="padding-left-lg padding-bottom-lg">
-                    <div class="gridCountDiv text-style"><label> {{itemCount}} item </label></div>
+                <div data-ng-if="itemCount===0" class="font-09em padding-lg">
+                    <span class="noInformation">{{viewWidgetVars.ERROR_NO_INFORMATION_AVAILABLE}}</span>
+                </div>
+                <div data-ng-if="itemCount>0" class="padding-left-lg padding-bottom-lg">
+                    <div class="gridCountDiv text-style"><label> {{itemCount}} {{viewWidgetVars.LABEL_ITEM}} </label></div>
                     <div id="iocSearchGrid" data-ui-grid="gridOptions" data-ui-grid-move-columns
                         class="cs-grid animate__fadeIn animate__animated margin-top-50" style="height: 400px;width: 98%;"
                         ui-grid-resize-columns ui-grid-auto-resize ui-grid-selection ui-grid-expandable

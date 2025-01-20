@@ -49,21 +49,29 @@ Copyright end */
       function _handleTranslations() {
         widgetUtilityService.checkTranslationMode($scope.$parent.model.type).then(function () {
           $scope.viewWidgetVars = {
-            // Create your translating static string variables here
+          // Create your translating static string variables here
+            ERROR_NO_INFORMATION_AVAILABLE: widgetUtilityService.translate('gridSummary.ERROR_NO_INFORMATION_AVAILABLE'),
+            LABEL_ITEM: widgetUtilityService.translate('gridSummary.LABEL_ITEM'),
           };
+          populateGridData();
         });
+      }
+
+      function populateGridData(){
+        let _gridDefinition = $scope.config.embedded ? $scope.config.gridDefinition :  $scope.config.gridDefinitionJson;
+        let _gridData = $scope.config.embedded ? $scope.config.gridData :  $scope.config.gridDataJson;
+        $scope.module = _gridDefinition?.module;
+        $scope.gridOptions = _gridDefinition?.gridOptions; //set grid definition
+        if($scope.gridOptions){
+          $scope.gridOptions.data = _gridData.data; //set grid data 
+          $scope.gridOptions.onRegisterApi = _setGridApi;
+        }      
+        $scope.itemCount = $scope.gridOptions.data ? $scope.gridOptions.data.length : 0;
       }
 
       function init() {
         // To handle backward compatibility for widget
         _handleTranslations();
-        let _gridDefinition = $scope.config.embedded ? $scope.config.gridDefinition :  $scope.config.gridDefinitionJson;
-        let _gridData = $scope.config.embedded ? $scope.config.gridData :  $scope.config.gridDataJson;
-        $scope.module = _gridDefinition.module;
-        $scope.gridOptions = _gridDefinition.gridOptions; //set grid definition
-        $scope.gridOptions.data = _gridData.data; //set grid data 
-        $scope.gridOptions.onRegisterApi = _setGridApi;
-        $scope.itemCount = $scope.gridOptions.data ? $scope.gridOptions.data.length : 0;
       }
 
       init();
