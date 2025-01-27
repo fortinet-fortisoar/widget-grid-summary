@@ -4,6 +4,7 @@
         "HEADER_EDIT_SUMMARY_GRID":"Edit Summary Grid",
         "HEADER_ADD_SUMMARY_GRID":"Add Summary Grid",
         "LABEL_ITEM":"Item",
+        "LABEL_ITEMS":"Items",
         "LABEL_GRID_TEMPLATE": "Grid Template",
         "LABEL_GRID_DATA": "Grid Data"
     }
