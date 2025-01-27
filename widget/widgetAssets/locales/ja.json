@@ -4,6 +4,7 @@
         "HEADER_EDIT_SUMMARY_GRID": "サマリーグリッドの編集",
         "HEADER_ADD_SUMMARY_GRID": "サマリーグリッドの追加",
         "LABEL_ITEM": "アイテム",
+        "LABEL_ITEMS":"アイテム",
         "LABEL_GRID_TEMPLATE": "グリッドテンプレート",
         "LABEL_GRID_DATA": "グリッドデータ"
     }    

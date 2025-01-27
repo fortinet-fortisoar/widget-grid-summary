@@ -6,7 +6,7 @@
     "published_date": 1733472141,
     "releaseNotes": "unavailable",
     "metadata": {
-        "description": "",
+        "description": "Create a grid and populate given JSON data in it",
         "pages": [
             "View Panel",
             "Dashboard",
@@ -20,9 +20,7 @@
         ],
         "category": [
             "Threat Intelligence",
-            "Data Enrichment & Threat Intelligence",
-            "Analytics and SIEM",
-            "FortiSOAR Essentials"
+            "Vulnerability and Risk Management"
         ]
     },
     "development": false

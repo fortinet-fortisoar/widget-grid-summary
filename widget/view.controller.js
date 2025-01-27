@@ -52,6 +52,7 @@ Copyright end */
           // Create your translating static string variables here
             ERROR_NO_INFORMATION_AVAILABLE: widgetUtilityService.translate('gridSummary.ERROR_NO_INFORMATION_AVAILABLE'),
             LABEL_ITEM: widgetUtilityService.translate('gridSummary.LABEL_ITEM'),
+            LABEL_ITEMS: widgetUtilityService.translate('gridSummary.LABEL_ITEMS')
           };
           populateGridData();
         });
