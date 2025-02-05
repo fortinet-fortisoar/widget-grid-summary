@@ -23,7 +23,7 @@ Copyright end -->
         <div>
             <div class="form-group"
                 data-ng-class="{ 'has-error': editGridSummaryForm.gridDefinition.$invalid && editGridSummaryForm.gridDefinition.$touched }">
-                <label for="gridDefinition" class="control-label">{{viewWidgetVars.LABEL_GRID_TEMPLATE}}<span class="text-danger">*</span></label>
+                <label for="gridDefinition" class="control-label">{{viewWidgetVars.LABEL_GRID_TEMPLATE}}</label>
                 <div id="gridDefinition" data-cs-json-editor data-options="jsoneditorOptions" data-on-change="setGridDefinition"
                     data-json="config.gridDefinitionJson" class="jinja-json-editor"></div>
                 <div data-cs-messages="editGridSummaryForm.gridDefinition"></div>
@@ -32,7 +32,7 @@ Copyright end -->
         <div>
             <div class="form-group"
                 data-ng-class="{ 'has-error': editGridSummaryForm.gridDataJson.$invalid && editGridSummaryForm.gridDataJson.$touched }">
-                <label for="gridDataJson" class="control-label">{{viewWidgetVars.LABEL_GRID_DATA}}<span class="text-danger">*</span></label>
+                <label for="gridDataJson" class="control-label">{{viewWidgetVars.LABEL_GRID_DATA}}</label>
                 <div id="gridDataJson" data-cs-json-editor data-options="jsoneditorOptions" data-on-change="setGridDataJson"
                     data-json="config.gridDataJson" class="jinja-json-editor"></div>
                 <div data-cs-messages="editGridSummaryForm.gridDataJson"></div>
