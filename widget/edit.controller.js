@@ -42,7 +42,7 @@ Copyright end */
                 HEADER_ADD_HEATMAP: widgetUtilityService.translate('gridSummary.HEADER_ADD_SUMMARY_GRID'),
                 LABEL_GRID_TEMPLATE: widgetUtilityService.translate('gridSummary.LABEL_GRID_TEMPLATE'),
                 LABEL_GRID_DATA: widgetUtilityService.translate('gridSummary.LABEL_GRID_DATA'),
-                LABEL_NOT_CONFIGURABLE: widgetUtilityService.translate('customTags.LABEL_NOT_CONFIGURABLE')
+                LABEL_NOT_CONFIGURABLE: widgetUtilityService.translate('gridSummary.LABEL_NOT_CONFIGURABLE')
               };
             $scope.header = $scope.config.title ? $scope.viewWidgetVars.HEADER_EDIT_HEATMAP : $scope.viewWidgetVars.HEADER_ADD_HEATMAP;
             });
