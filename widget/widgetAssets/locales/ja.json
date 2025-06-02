@@ -6,6 +6,7 @@
         "LABEL_ITEM": "アイテム",
         "LABEL_ITEMS":"アイテム",
         "LABEL_GRID_TEMPLATE": "グリッドテンプレート",
-        "LABEL_GRID_DATA": "グリッドデータ"
+        "LABEL_GRID_DATA": "グリッドデータ",
+        "LABEL_NOT_CONFIGURABLE": "このウィジェットはバンドルされており、単体では使用できません"
     }    
 }

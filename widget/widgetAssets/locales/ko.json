@@ -6,6 +6,7 @@
         "LABEL_ITEM": "항목",
         "LABEL_ITEMS":"아이템",
         "LABEL_GRID_TEMPLATE": "그리드 템플릿",
-        "LABEL_GRID_DATA": "그리드 데이터"
+        "LABEL_GRID_DATA": "그리드 데이터",
+        "LABEL_NOT_CONFIGURABLE": "이 위젯은 번들로 제공되며 단독으로 사용할 수 없습니다."
     }
 }

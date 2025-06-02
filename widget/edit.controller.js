@@ -14,6 +14,7 @@ Copyright end */
         $scope.cancel = cancel;
         $scope.save = save;
         $scope.config = config;
+        $scope.isConfigurable = false;
         $scope.header = $scope.config.title ? 'Edit Summary Grid' : 'Add Summary Grid';
         $scope.setGridDefinition = setGridDefinition; //set grid options
         $scope.setGridDataJson = setGridDataJson; //set grid data
@@ -40,7 +41,8 @@ Copyright end */
                 HEADER_EDIT_HEATMAP: widgetUtilityService.translate('gridSummary.HEADER_EDIT_SUMMARY_GRID'),
                 HEADER_ADD_HEATMAP: widgetUtilityService.translate('gridSummary.HEADER_ADD_SUMMARY_GRID'),
                 LABEL_GRID_TEMPLATE: widgetUtilityService.translate('gridSummary.LABEL_GRID_TEMPLATE'),
-                LABEL_GRID_DATA: widgetUtilityService.translate('gridSummary.LABEL_GRID_DATA')
+                LABEL_GRID_DATA: widgetUtilityService.translate('gridSummary.LABEL_GRID_DATA'),
+                LABEL_NOT_CONFIGURABLE: widgetUtilityService.translate('gridSummary.LABEL_NOT_CONFIGURABLE')
               };
             $scope.header = $scope.config.title ? $scope.viewWidgetVars.HEADER_EDIT_HEATMAP : $scope.viewWidgetVars.HEADER_ADD_HEATMAP;
             });
